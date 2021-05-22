@@ -1,0 +1,165 @@
+#leftheader {
+  background-color: #3c8dbc;
+}
+#heading {
+  line-height: 2.2;
+  background-color: #367fa9;
+}
+
+
+#sidebarmenu {
+  background-color:#222d32;
+  /* height: 650px; */
+  line-height: 2.0;
+  padding-top: 15px;
+}
+
+#headinglogo {
+  line-height: 2.9;
+  color: #fff;
+  font-size: 19px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link .dropdown {
+  color: #fff;
+}
+.nav-link:hover {
+  color: rgb(160, 157, 157);
+  /* color: #fff; */
+}
+
+/* start btn dropdown menu */
+.feat-show {
+  display: none;
+  list-style-type: none;
+}
+
+.feat-show.show{
+  display: block;
+           
+}
+
+.feat-show2{
+  display: none;
+  list-style-type: none;
+}
+
+.feat-show2.show{
+  display: block;
+           
+}
+
+.feat-show3{
+  display: none;
+  list-style-type: none;
+}
+
+.feat-show3.show{
+  display: block;
+           
+}
+
+.feat-show4{
+  display: none;
+  list-style-type: none;
+}
+
+.feat-show4.show{
+  display: block;
+           
+}
+
+.feat-show5{
+  display: none;
+  list-style-type: none;
+}
+
+.feat-show5.show{
+  display: block;
+           
+}
+
+.feat-show6{
+  display: none;
+  list-style-type: none;
+}
+
+.feat-show6.show{
+  display: block;
+           
+}
+.feat-show7{
+  display: none;
+  list-style-type: none;
+}
+
+.feat-show7.show{
+  display: block;
+           
+}
+
+
+.feat-show a,.feat-show2  a,.feat-show3  a,.feat-show4 a,.feat-show5  a,.feat-show6  a,.feat-show7  a{
+  color:rgb(184, 184, 184) ;
+  text-decoration: none;
+  display: block;
+}
+
+.feat-show li a:hover,.feat-show2 li a:hover,.feat-show3 li a:hover,.feat-show4 li a:hover,.feat-show5 li a:hover,.feat-show6 li a:hover,.feat-show7 li a:hover{
+  /* color: rgb(160, 157, 157); */
+  color: #007bff;
+  display: block;
+  
+  border-right-style: groove;
+
+
+
+  /* end of btn menu */
+  
+}
+#Logout a{
+    padding-top: 5px;
+    color: white;
+}
+
+.navbar-toggler{
+   line-height: 2.0;
+
+}
+
+
+@media (max-width:768px) {
+    #sidebarmenu{
+      margin-bottom: 20px;
+      display: none;
+      
+    }
+  
+    
+
+    .sidebarrow{
+      margin-top: 50px;
+      margin-bottom: 0px;
+     
+    }
+
+    
+
+
+    #leftheader.active{
+        margin-left: 0px;
+        
+    }
+    #footer{
+      padding-top: 800px;
+    }
+    
+}
+
+
+
+

@@ -7,9 +7,9 @@ require_once("include/connection.php");
         $result = mysqli_query($con,$sql);
 
         if($result){
-            header("location:view_student.php");
+            header("location:view_student.php?res=success");
         }else{
-            header("location:view_student.php");
+            header("location:view_student.php?res=error");
         }
     }
 

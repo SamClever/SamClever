@@ -26,16 +26,12 @@ require_once("include/dash_header.php");
                                 <!-- Total no of student -->
                                 <?php
 
-                                $sql = "SELECT stuid  FROM student where stuid=stuid ORDER BY stuid desc LIMIT 1";
-
+                                $sql = "SELECT count(*) as count FROM `student`";
                                 $result = mysqli_query($con, $sql);
-                                $count = 0;
+                                $count = mysqli_fetch_array($result);
 
-                                while ($stuudentid = mysqli_fetch_array($result)) {
-                                    $count++;
-
-                                    echo $stuudentid['stuid'];
-                                }
+                                echo $count[0];
+                            
                                 ?>
 
                                 <!-- End of loop  total no of student -->

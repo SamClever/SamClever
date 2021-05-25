@@ -44,7 +44,7 @@ require_once("include/connection.php");
                 <td class="text-center"><?=$students['Class_category'];?></td>
                 <td>
                     <a href="#"><i class="fa fa-pencil text-warning fa-md"></i></a>&nbsp;&nbsp;&nbsp;
-                    <a href="#"><i class="fa fa-trash text-danger fa-md"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="delete_student.php?Del=<?php  echo $students['stuid']?>"><i class="fa fa-trash text-danger fa-md"></i></a>&nbsp;&nbsp;&nbsp;
                 </td>
             </tr>
             <?}?>
